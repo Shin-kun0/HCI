@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    line-height: 1.6;
 }
 
 header {
@@ -218,9 +219,20 @@ footer {
         margin-bottom: 20px; 
     }
     .content {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: 1fr;   
+    }
+    .content h2 {
+        font-size: 1.25rem;
+        word-break: break-word;
+    }
+
+    .content p {
+        font-size: 0.9rem; 
+        word-break: break-word;
     }
 }
+
+
 
 
 
@@ -292,21 +304,32 @@ footer {
 /*article page*/
 .content {
     display: grid;
-    gap: 20px;
     grid-template-columns: 1fr;
-    max-width: 800px;
+    gap: 1rem;
+    padding: 0 20px; 
+    max-width: 100%;
     margin: 0 auto;
-    background-color: #ffffff;
-    padding: 20px;
-    padding-left: 10px; /* Sola bitişik olması için ekstra padding */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content p{
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 10px;
+    text-align: left;
+    font-weight: normal;
 }
 
 .content h2{
-    margin-left: 20px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 100;
 }
 
 .name-date{
     margin-left: 30px;
+}
+
+.name-date h2{
+    font-size: 15px;
+    font-weight: normal;
 }
