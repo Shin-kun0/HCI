@@ -217,6 +217,9 @@ footer {
         width: 100%;
         margin-bottom: 20px; 
     }
+    .content {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
 }
 
 
@@ -288,13 +291,22 @@ footer {
 
 /*article page*/
 .content {
-    max-width: 800px;
-    margin: 0 auto;
     display: grid;
     gap: 20px;
+    grid-template-columns: 1fr;
+    max-width: 800px;
+    margin: 0 auto;
     background-color: #ffffff;
     padding: 20px;
-    padding-left: 10px;
+    padding-left: 10px; /* Sola bitişik olması için ekstra padding */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h2{
+    margin-left: 20px;
+}
+
+.name-date{
+    margin-left: 30px;
 }
