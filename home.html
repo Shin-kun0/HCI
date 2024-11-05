@@ -14,13 +14,15 @@
 </head>
 
 <header>
-    <div class="logo">logo</div>
+    <div class="logo">
+        <img src="photos/footer.png" alt="logo" class="logo-photo">
+    </div>
     <nav>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">Resources</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
         <div class="hamburger">
             <span></span>
@@ -31,9 +33,12 @@
     
 </header>
 
+<body>
+
+<div class="container">
 <div class="search-bar">
     <h2>SEARCH</h2>
-    //barı ekle form olarak
+    <input type="text" placeholder="Search..." id="search-input">
 
 </div>
 
@@ -44,26 +49,27 @@
     <H2> Top Articles</H2>
     <div class="articles-parts">
         <p>Evaluatiob Techniques in HCI</p>
-        <p>Evaluatiob Techniques in HCI</p>
-        <p>Evaluatiob Techniques in HCI</p>
-        <p>Evaluatiob Techniques in HCI</p>
-        <p>Evaluatiob Techniques in HCI</p>
+        <p>The Human: Cognitive and Physical Abilities</p>
+        <p>Emerging Trends: Ubiquitous Computing and Augmented Realities</p>
+        <p>Introduction to the Human-Computer Interaction </p>
+        <p>The Computer: Input and Output Devices</p>
     </div>
 </div>
 
-<div>
-
-</div class="new-acrticles">
+<div class="new-articles">
     <H2> New Articles</H2>
-    <div>
-        <p> Cognitive Models and Theories</p>
-        <p> Cognitive Models and Theories</p>
-        <p> Cognitive Models and Theories</p>
+    <div class="articles-parts">
+        <p>Cognitive Models and Theories</p>
+        <p>The Interactions: Models and Styles</p>
+        <p>Designing for Interaction</p>
     </div>
-
 </div>
 
-<body>
+</div>
+</div>
+
+<br> <br>
+
 
 
     
@@ -105,13 +111,5 @@
 
 </body>
 
-<script>
-    const hamburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
-
-    hamburger.addEventListener('click', () => {
-        navLinks.classList.toggle('nav-active');
-        hamburger.classList.toggle('toggle');
-    });
-</script>
+<script src="style/script.js"></script>
 </html>
