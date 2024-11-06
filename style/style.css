@@ -154,8 +154,15 @@ footer {
 }
 
 .about-us{
-    font-size: 2.5rem;
-    font-weight: 600;
+    font-size: 4.3rem;
+    color: #464246;
+    font-family: "Jockey One";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 50px;
+
     
 }
 .para p{
@@ -165,14 +172,14 @@ footer {
     font-weight: 400;
     line-height: normal;
     font-family: "Jockey One";
+    color: #464246;
 
 }
 
 #about-us{
-    font-size: 1.3rem;
-    font-weight: 600;
+    
     padding-left: 30px;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 
 }
 
