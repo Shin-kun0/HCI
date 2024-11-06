@@ -153,7 +153,119 @@ footer {
     margin-top: 10px;
 }
 
+.about-us{
+    font-size: 4.3rem;
+    color: #464246;
+    font-family: "Jockey One";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 50px;
 
+    
+}
+.para p{
+    margin-top: 60px;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Jockey One";
+    color: #464246;
+
+}
+
+#about-us{
+    
+    padding-left: 30px;
+    margin-bottom: 100px;
+
+}
+
+
+#resources{
+    padding-left: 30px;
+}
+
+#container {
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #a57431;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 100px;
+
+   
+}
+
+#resources h2 {
+    font-size: 2.5rem;
+    
+    margin-bottom: 1rem;
+    color: #333;
+    margin-top: 40px;
+}
+
+.headline-item {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.link-box {
+    margin-top: 0.5rem;
+    padding: 10px;
+    background-color: #dcdcdc;
+    border: 2px solid #0091ff;
+    border-radius: 4px;
+    padding-left: 100px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.link-box a {
+    display: block;
+    color: #0091ff;
+    text-decoration: none;
+    margin: 0.5rem 0;
+}
+
+
+@media (max-width: 480px) {
+    #container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .headline-item {
+        font-size: 0.4rem;
+    }
+    .para{
+        font-size: 0.3rem;
+    }
+    .about-us{
+        font-size: 0.3rem;
+    }
+    
+}
+@media (max-width: 768px) {
+    #resources {
+        font-size: 1.25rem;
+    }
+
+   
+    .para{
+        font-size: 1.2rem;
+    }
+    .about-us{
+        font-size: 2rem;
+    } 
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
     .nav-links {
