@@ -312,7 +312,7 @@ footer {
 }
 
 .content p{
-    font-size: 16px;
+    font-size: 30px;
     line-height: 1.6;
     padding: 10px;
     text-align: left;
@@ -320,7 +320,7 @@ footer {
 }
 
 .content h2{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin-bottom: 10px;
     font-weight: 100;
 }
@@ -330,6 +330,6 @@ footer {
 }
 
 .name-date h2{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: normal;
 }
